@@ -1,0 +1,4 @@
+
+struct proc {
+    int priority;
+}
