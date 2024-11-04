@@ -3,5 +3,6 @@
 
 int cps(void);
 int chpr(int pid, int priority);
+void exit(void);
 
 #endif  // USER_H
