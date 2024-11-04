@@ -11,3 +11,8 @@ int sys_chpr(void) {
         return -1;
     return chpr(pid, pr);
 }
+
+static int (*syscalls[])(void) {
+    [SYS_cps] sys_cps,
+    [SYS_chpr] sys_chpr,
+}
