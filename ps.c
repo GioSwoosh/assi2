@@ -4,5 +4,6 @@
 
 int main(void) {
     cps();
-    exit(0);
+    exit();
+    return(0);
 }
